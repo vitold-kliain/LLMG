@@ -1,0 +1,255 @@
+@import 'vars';
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        height: auto;
+    }
+    .menu {
+        li a{
+            margin: 0 7px;
+        }
+    }
+
+    .catalog {
+        .h2 {
+            font-size: 39px;
+        }
+
+        .catalog__item {
+            .button {
+                width: 75%;
+            }
+        }
+    }
+
+    .button-transp {
+        width: 80%;
+    }
+
+    .works {
+        .works__item {
+            .h2 {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .menu {
+        display: none;
+        li {
+            margin-right: 0;
+        }
+    }
+    .menu-mobile__btn {
+        display: block;
+    }
+
+    .top-line {
+        background-color: #294770;
+    }
+    .header .top-line {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .logo {
+        margin-left: 35px;
+    }
+    .menu-mobile__btn .hamburger {
+        margin-right: 35px;
+    }
+
+    .header-center .wrapper {
+        margin-right: 0;
+    }
+
+    .header-center .header-center__title {
+        text-align: center;
+    }
+    .header-center .header-center__subtitle{
+        text-align: center;
+        .h2 {
+            margin-top: 40px;
+        }
+    }
+    
+    .header-center .header-center__btn {
+        display: block;
+    }
+
+    .catalog {
+
+        .catalog__item {
+            .button {
+                width: 67%;
+            }
+        }
+    }
+
+    .button-transp {
+        width: 85%;
+    }
+
+    .works {
+        .works__item {
+            height: 50vh;
+            .h2 {
+                font-size: 25px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        min-height: 500px;
+    }
+
+    .header-center {
+        .header-center__title {
+            .h1 {
+                font-size: 58px;
+            }
+            .h3 {
+                font-size: 30px;
+            }
+        }
+
+        .header-center__subtitle {
+            .h2 {
+                font-size: 36px;
+            }
+            p {
+                font-size: 21px;
+            }
+        }
+    }
+
+    .catalog {
+        .h2 {
+            margin-top: 30px;
+            padding: 0;
+        }
+        .catalog__item {
+            .button {
+                width: 80%;
+            }
+        }
+    }
+
+    .button-transp {
+        width: 85%;
+        font-size: 16px;
+    } 
+
+    .works {
+        .works__item {
+            .h2 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .blog {
+        .h1 {
+            font-size: 35px;
+        }
+        padding: 10% 50px 15%
+    }
+
+    .catalog {
+        padding: 8% 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        min-height: 600px;
+        height: auto;
+    }
+    .header-center {
+        .header-center__title {
+            .h1 {
+                font-size: 43px;
+                text-shadow: 2px 2px #8E4873;
+            }
+            .h3 {
+                font-size: 26px;
+            }
+        }
+
+        .header-center__subtitle {
+            .h2 {
+                font-size: 25px;
+                text-shadow: 2px 2px #8E4873;
+            }
+            p {
+                font-size: 18px;
+                text-shadow: 2px 2px #8E4873;
+            }
+        }
+
+        .header-center__btn {
+            margin-top: 25px;
+            .button {
+                padding: 9px 18px;
+            }
+        }
+    }
+
+    .catalog {
+        .h2 {
+            margin-top: 25px;
+        }
+    }
+
+    .works {
+        .works__item {
+            .h2 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .blog {
+        .h1 {
+            font-size: 28px;
+        }
+        padding: {
+            left: 10px;
+            right: 10px;
+        }
+    }
+
+    .footer-distributed .footer-top .h3, .footer-distributed .footer-center .h4 {
+        font-size: 20px;
+    }
+}
+
+
+
+/*==========  Mobile First  ==========*/
+
+@media only screen and (min-width: 320px) {
+
+}
+
+@media only screen and (min-width: 576) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 992px) {
+    
+}
+
+@media only screen and (min-width: 1200px) {
+}
